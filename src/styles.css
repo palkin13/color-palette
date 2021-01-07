@@ -1,0 +1,59 @@
+.App {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+
+    
+}
+
+h4 {
+color: #effad3;
+font-size: 25px;
+line-height: 1;
+position: absolute;
+top: 50px;
+left: 50%;
+transform : translate(-50%);
+font-family: 'Yellowtail', cursive;
+}
+
+.container {
+margin : auto;
+width : 100%;
+max-width: 590px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+
+}
+
+.container .card {
+width: 100%;
+max-width: 100px;
+margin: 10px 0;
+text-align: center;
+
+}
+.container .card p {
+margin: 12px 0;
+font-weight: 600;
+cursor: pointer;
+}
+
+.container .card .box {
+width : 100%;
+height: 100px;
+cursor: pointer;
+border: 1px solid white;
+border-radius: 12px;
+}
+
